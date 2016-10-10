@@ -1,0 +1,33 @@
+{
+  "name": "octocat-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "plugins": [
+      "transform-strict-mode",
+      "transform-es2015-modules-commonjs",
+      "transform-es2015-spread",
+      "transform-es2015-destructuring",
+      "transform-es2015-parameters"
+    ]
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.11.3"
+  }
+}
